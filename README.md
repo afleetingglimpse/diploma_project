@@ -6,8 +6,8 @@ That program was designed to control the process of 2D laser ablation/polymeriza
 Manual:
 1. Start StepperMotorControl.exe
 2. In the menu window there are two options to choose. Manual control and Load Code from file.
-3a. Case 1: Manual control was chosen. In the second window there are 2 select boxes and 4 buttons to interact. Boxes contains values, which represents a distance (in mm) the motor will drive. Buttons defines direction of movement. As soon as the button Positive/Negative X or Y is pressed, motor drives the selected distance in the selected direction.
-3b. Case 2: Load from file was chosen. Application evokes console program, which loads Code from file "/sourse/commands.gcode" in the list to be sent to microcontroller. In the console screen list of commands with question "Continue?" is shown. After positive answer ("Y") program sends all the commands to controller. Choosing "N" exits the program. 
+3. Case 1: Manual control was chosen. In the second window there are 2 select boxes and 4 buttons to interact. Boxes contains values, which represents a distance (in mm) the motor will drive. Buttons defines direction of movement. As soon as the button Positive/Negative X or Y is pressed, motor drives the selected distance in the selected direction.
+4. Case 2: Load from file was chosen. Application evokes console program, which loads Code from file "/sourse/commands.gcode" in the list to be sent to microcontroller. In the console screen list of commands with question "Continue?" is shown. After positive answer ("Y") program sends all the commands to controller. Choosing "N" exits the program. 
 
 
 
