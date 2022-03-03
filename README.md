@@ -10,7 +10,7 @@ Manual:
 4. Case 2: Load from file was chosen. Application evokes console program, which loads Code from file "/sourse/commands.gcode" in the list to be sent to microcontroller. In the console screen list of commands with question "Continue?" is shown. After positive answer ("Y") program sends all the commands to controller. Choosing "N" exits the program. 
 
 
-
+# description 
 The core of program is 4 files:
 1. StepperMotorControl.py 
 2. Menu.py
@@ -22,3 +22,5 @@ Brief description:
 2. Menu.py contains description of the first window seen by user. Class Menu defines each element of the window and functions evoking by interacting with them. 
 3. MainWindow.py contains description of the window seen by user by pressing Manual button in menu window. Class MainWindow defines each element of the window and functions evoking by interacting with them. 
 4. LoadGCodeFromFile.py contains functions interacting with file in .gcode extension and communication with microcontroller.  
+
+Information about implementation is to be seen in comments in each file. 
