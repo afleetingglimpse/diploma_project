@@ -23,4 +23,4 @@ Brief description:
 3. MainWindow.py contains description of the window seen by user by pressing Manual button in menu window. Class MainWindow defines each element of the window and functions evoking by interacting with them. 
 4. LoadGCodeFromFile.py contains functions interacting with file in .gcode extension and communication with microcontroller.  
 
-Information about implementation is to be seen in comments in each file. 
+Information about implementation is to be seen in comments in each file (only in russian for now)
